@@ -110,7 +110,7 @@ This one's pretty simple. Given three integer values (i.e., the ```a```, ```b```
 
 ```
 loneSum(1, 2, 3) should yield 6.
-loneSum(3, 2, 2) should yield 2.
+loneSum(3, 2, 3) should yield 2.
 loneSum(3, 3, 3) should yield 0.
 ```
 
