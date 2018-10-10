@@ -134,6 +134,14 @@ public class ProblemSet3 {
 				System.out.print("YES");
 			}
 		}
+		else if ((big * 5) > goal) {
+			if ((big * 5) - goal >= small) {
+			System.out.print("NO");
+			}
+			else {
+				System.out.print("YES");
+			}
+		}
 		else if (goal % (5 * big) <= small) {
 			System.out.print("YES");
 		}
