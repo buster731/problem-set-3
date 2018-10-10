@@ -26,6 +26,8 @@ public class ProblemSet3 {
 	public static void main(String[] args) {
 		ProblemSet3 ps3 = new ProblemSet3();
 		
+		System.out.println("dateFashion(you, date)\n");
+
 		ps3.dateFashion(5, 10);
 		ps3.dateFashion(5, 5);
 		ps3.dateFashion(2, 8);
@@ -74,7 +76,6 @@ public class ProblemSet3 {
 		else {
 			System.out.println("You are off the charts. Please try again");
 		}
-		System.out.print("\n");
 	}
 	
 	public void fizzString(String str) {
@@ -89,7 +90,6 @@ public class ProblemSet3 {
 		else if(fLet != 'f' && lLet != 'b') {
 			System.out.println(str);
 		}
-		System.out.print("\n");
 	}
 		
 	public void squirrelPlay(int temp, boolean isSummer) {
@@ -109,7 +109,6 @@ public class ProblemSet3 {
 				System.out.print("NO");
 			}
 		}
-		System.out.println("\n");
 	}
 	
 	public void fizzStringAgain(int n) {
@@ -155,7 +154,7 @@ public class ProblemSet3 {
 		if (c != a && c != b) {
 			sum += c;
 		}
-		System.out.print(sum + "\n");
+		System.out.println(sum);
 	}
 	
 	public void luckySum(int a, int b, int c) {
